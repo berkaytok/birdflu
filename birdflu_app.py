@@ -65,7 +65,7 @@ if df is not None and centroids is not None:
     FastMarkerCluster(
         data=points,
         options={
-            'maxClusterRadius': 30,
+            'maxClusterRadius': 40,
             'disableClusteringAtZoom': 8
         }
     ).add_to(m)
